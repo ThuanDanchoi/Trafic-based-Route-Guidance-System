@@ -32,7 +32,7 @@ git clone https://github.com/yourusername/route-finding.git](https://github.com/
 
 2. Navigate to the project directory:
 ```
-cd project_a
+cd part_a
 ```
 
 3. No additional packages are required for the base functionality.
