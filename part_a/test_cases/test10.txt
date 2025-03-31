@@ -1,0 +1,30 @@
+# Graph with dead-end nodes
+# Testing the ability to handle dead-ends and backtracking
+Nodes:
+1: (1,1)
+2: (1,3)
+3: (1,5)
+4: (3,5)
+5: (5,5)
+6: (5,3)
+7: (5,1)
+8: (3,1)
+9: (3,3)
+10: (2,4)
+11: (4,4)
+Edges:
+(1,2): 2
+(2,3): 2
+(3,4): 2
+(4,5): 2
+(5,6): 2
+(6,7): 2
+(7,8): 2
+(8,1): 2
+(2,10): 1
+(10,11): 2
+(11,6): 1
+Origin:
+1
+Destinations:
+9

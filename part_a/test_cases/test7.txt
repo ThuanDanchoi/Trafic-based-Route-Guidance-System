@@ -1,0 +1,19 @@
+# Graph with uneven edge costs
+# Testing the ability to find lowest-cost path
+Nodes:
+1: (1,1)
+2: (1,5)
+3: (5,5)
+4: (5,1)
+5: (3,3)
+Edges:
+(1,2): 10
+(2,3): 10
+(3,4): 10
+(4,1): 10
+(1,5): 5
+(5,3): 5
+Origin:
+1
+Destinations:
+3
