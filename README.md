@@ -27,7 +27,7 @@ This project implements 6 different search algorithms:
 ### How to Install
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/route-finding.git
+git clone https://github.com/yourusername/route-finding.git](https://github.com/ThuanDanchoi/Trafic-based-Route-Guidance-System.git)
 ```
 
 2. Navigate to the project directory:
@@ -67,9 +67,10 @@ path
 - The objective is to reach one of the destination nodes
 
 ## Development Team
-- Team Member 1 (ID)
-- Team Member 2 (ID)
-- Team Member 3 (ID)
+- Duc Thuan Tran (104330455)
+- Vu Anh Le (104653505)
+- Ng AE Lao (103333333)
+- Ng AE malay (103333334)
 
 ## License
 This project is developed for educational purposes as part of the COS30019 - Introduction to AI course.
