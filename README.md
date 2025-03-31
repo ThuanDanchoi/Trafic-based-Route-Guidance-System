@@ -1,9 +1,9 @@
 # Trafic-based-Route-Guidance-System
 
 ## Introduction
-This project is Part A of Assignment 2 for the COS30019 - Introduction to AI course. The objective is to implement tree-based search algorithms to solve the Route Finding problem.
+This project implements tree-based search algorithms to solve the Route Finding problem. The objective is to find optimal paths (lowest cost) from an origin node to one or more destination nodes on a 2D graph.
 
-In this problem, we need to find optimal paths (lowest cost) from an origin node to one or more destination nodes on a 2D graph. The project involves implementing both informed and uninformed search methods.
+The implementation includes both informed and uninformed search methods to compare their effectiveness in solving route finding problems.
 
 ## Search Algorithms
 This project implements 6 different search algorithms:
@@ -11,12 +11,12 @@ This project implements 6 different search algorithms:
 ### Uninformed Search Methods
 - **DFS** (Depth-First Search): Selects one option, tries it, goes back when there are no more options
 - **BFS** (Breadth-First Search): Expands all options one level at a time
-- **CUS1** (Custom Strategy 1): A custom uninformed method to find a path to reach the goal
+- **CUS1** (IDDFS - Iterative Deepening Depth-First Search): Starts searching with depth 1, then gradually increases the depth with each iteration. It finds the same path as BFS but uses less memory as it's DFS with a depth limit.
 
 ### Informed Search Methods
 - **GBFS** (Greedy Best-First Search): Uses only the cost to reach the goal from the current node to evaluate the node
 - **AS** (A* - A Star): Uses both the cost to reach the goal from the current node and the cost to reach this node to evaluate the node
-- **CUS2** (Custom Strategy 2): A custom informed method to find the shortest path (with least moves) to reach the goal
+- **CUS2** (Weighted A*): Similar to A* but places a larger weight on the heuristic component. This makes it biased toward exploring nodes with smaller heuristic values (closer to the goal), potentially increasing search speed in some cases
 
 ## Installation
 
@@ -32,7 +32,7 @@ git clone https://github.com/yourusername/route-finding.git](https://github.com/
 
 2. Navigate to the project directory:
 ```
-cd route-finding
+cd project_a
 ```
 
 3. No additional packages are required for the base functionality.
