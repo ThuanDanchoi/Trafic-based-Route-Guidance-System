@@ -1,0 +1,10 @@
+X_train_shape: (173696, 4, 9)
+X_test_shape: (43424, 4, 9)
+y_train_shape: (173696, 1)
+y_test_shape: (43424, 1)
+sites_train_shape: (173696,)
+sites_test_shape: (43424,)
+n_unique_sites: 18
+sequence_length: 4
+n_features: 9
+output_size: 1

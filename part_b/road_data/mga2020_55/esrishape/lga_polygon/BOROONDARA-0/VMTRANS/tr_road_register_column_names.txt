@@ -1,0 +1,23 @@
+﻿The column names in a Shape file are limited to 10 characters
+This lists the short column name and the original column name in the database table
+-----------------------------------------------------------------------------------------------------
+
+RD_SUF = ROAD_SUFFIX
+CRDATE_PFI = CREATE_DATE_PFI
+ROAD_NAME = ROAD_NAME
+UFI = UFI
+GAZREGN = GAZETTAL_REGISTRATION
+RDN_GENDER = ROAD_NAME_GENDER
+RDNAMEUSE = ROAD_NAME_USE
+LOCALITY = LOCALITY
+MINCLASSCD = MIN_CLASS_CODE
+GAZ_URL = GAZETTAL_URL
+NUNIQ_LOC = NONUNIQUE_LOCALITY
+EZI_RDNAME = EZI_ROAD_NAME
+GAZETTAL = GAZETTAL_DATE
+VICNAMESID = VICNAMES_ID
+RDNAMETHEM = ROAD_NAME_THEME
+EZIRDNMLBL = EZI_ROAD_NAME_LABEL
+LOC_RD_ID = LOCALITY_ROAD_ID
+CRDATE_UFI = CREATE_DATE_UFI
+ROAD_TYPE = ROAD_TYPE

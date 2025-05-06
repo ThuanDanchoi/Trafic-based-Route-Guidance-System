@@ -1,0 +1,8 @@
+﻿The column names in a Shape file are limited to 10 characters
+This lists the short column name and the original column name in the database table
+-----------------------------------------------------------------------------------------------------
+
+LOC_RD_ID = LOCALITY_ROAD_ID
+CRDATE_UFI = CREATE_DATE_UFI
+ROAD_UFI = ROAD_UFI
+UFI = UFI
