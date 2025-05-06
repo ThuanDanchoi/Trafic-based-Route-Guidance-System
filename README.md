@@ -69,8 +69,7 @@ path
 ## Development Team
 - Duc Thuan Tran (104330455)
 - Vu Anh Le (104653505)
-- Ng AE Lao (103333333)
-- Ng AE malay (103333334)
+- Harrish (103333333)
 
 ## License
 This project is developed for educational purposes as part of the COS30019 - Introduction to AI course.
